@@ -42,7 +42,7 @@ function loadViaMozActivity () {
 
 function loadViaXHR () {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "insert_relative_path_to_gb_rom_here");
+  xhr.open("GET", prompt(0,"https://obscure-inlet-99569.herokuapp.com/github.com/dbousamra/scalagb/raw/master/roms/TETRIS.GB"));
   xhr.responseType = "blob";
   xhr.onload = function () {
     startGame(new Blob([this.response], { type: "text/plain" }));
