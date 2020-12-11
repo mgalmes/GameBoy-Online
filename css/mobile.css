@@ -66,8 +66,8 @@ html, body {
 }
 
 #canvas_container {
-  width: 160px;
-  margin: 20px auto 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 #screen_cover > div:last-child {
